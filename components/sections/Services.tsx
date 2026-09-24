@@ -116,7 +116,7 @@ export default function Services() {
           viewport={{ once: true }}
           transition={{ duration: 0.65, ease: EASE, delay: 0.15 }}
         >
-          Vellmont Consulting is more than outreach. We fill your calendar with qualified meetings —
+          Crestline Consulting is more than outreach. We fill your calendar with qualified meetings —
           and help you document SOPs and tighten operations so the business runs smoothly behind the scenes.
         </motion.p>
 

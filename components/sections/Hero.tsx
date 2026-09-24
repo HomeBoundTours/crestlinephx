@@ -87,7 +87,7 @@ export default function Hero() {
         </motion.h1>
 
         <motion.p variants={item} className="pc-hero-sub">
-          Vellmont Consulting is a B2B consulting firm. We run your outbound engine to book
+          Crestline Consulting is a B2B consulting firm. We run your outbound engine to book
           qualified meetings — then help you document SOPs and tighten operations, so your
           business grows and runs smoothly behind the scenes.
         </motion.p>

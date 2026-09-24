@@ -1,4 +1,4 @@
-type VellmontMarkProps = {
+type CrestlineMarkProps = {
   /** Rendered box size in px (chip size when chip=true). */
   size?: number;
   /** Wrap the mark in an ivory rounded chip so it stays legible on dark backgrounds. */
@@ -8,10 +8,10 @@ type VellmontMarkProps = {
 };
 
 /**
- * The Vellmont seal — two-stroke "V" (navy front, emerald behind),
+ * The Crestline seal — two-stroke "V" (navy front, emerald behind),
  * recreated as vector so it stays crisp at every size.
  */
-export default function VellmontMark({ size = 28, chip = false, title, className }: VellmontMarkProps) {
+export default function CrestlineMark({ size = 28, chip = false, title, className }: CrestlineMarkProps) {
   const glyph = (
     <svg
       viewBox="0 0 96 96"

@@ -6,7 +6,7 @@ import BookCall from "@/components/sections/BookCall";
 export const metadata: Metadata = {
   title: "FAQ",
   description:
-    "Answers to the most common questions about Vellmont Consulting's B2B appointment setting service — timelines, pricing, qualification, and more.",
+    "Answers to the most common questions about Crestline Consulting's B2B appointment setting service — timelines, pricing, qualification, and more.",
 };
 
 export default function FAQPage() {

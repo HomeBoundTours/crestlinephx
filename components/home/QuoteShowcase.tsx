@@ -6,13 +6,13 @@ import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
 const quotes = [
   {
     quote:
-      "Within the first 45 days we had 14 qualified meetings on the calendar. Vellmont Consulting completely transformed our outbound. I stopped worrying about top-of-funnel entirely.",
+      "Within the first 45 days we had 14 qualified meetings on the calendar. Crestline Consulting completely transformed our outbound. I stopped worrying about top-of-funnel entirely.",
     name: "Marcus T.",
     title: "VP of Sales, B2B SaaS",
   },
   {
     quote:
-      "We tried building an in-house SDR team for two years and burned through budget. Vellmont had us booking meetings in under a month at a fraction of the cost.",
+      "We tried building an in-house SDR team for two years and burned through budget. Crestline had us booking meetings in under a month at a fraction of the cost.",
     name: "Sarah K.",
     title: "Founder, Staffing Agency",
   },

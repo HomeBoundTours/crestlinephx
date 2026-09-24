@@ -29,7 +29,7 @@ const comparison = [
 
 const EASE = [0.22, 1, 0.36, 1] as const;
 
-export default function WhyVellmont() {
+export default function WhyCrestline() {
   return (
     <section className="pc-section-pad" style={{ background: "#FCFBF6", borderTop: "1px solid rgba(21,38,63,0.10)" }}>
       <div className="pc-container">
@@ -40,7 +40,7 @@ export default function WhyVellmont() {
           viewport={{ once: true }}
           transition={{ duration: 0.6, ease: EASE }}
         >
-          Why Vellmont Consulting
+          Why Crestline Consulting
         </motion.p>
         <motion.h2
           className="pc-section-h2"
@@ -92,7 +92,7 @@ export default function WhyVellmont() {
                   Feature
                 </th>
                 <th style={{ padding: "16px 20px", textAlign: "left", fontSize: 11, fontWeight: 800, color: "#18553F", letterSpacing: "0.10em", textTransform: "uppercase", background: "rgba(30,107,82,0.07)" }}>
-                  Vellmont Consulting
+                  Crestline Consulting
                 </th>
                 <th style={{ padding: "16px 20px", textAlign: "left", fontSize: 11, fontWeight: 700, color: "#6B7488", letterSpacing: "0.10em", textTransform: "uppercase" }}>
                   In-House SDR

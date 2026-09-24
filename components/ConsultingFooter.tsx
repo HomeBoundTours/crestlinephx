@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import VellmontLogo from "@/components/VellmontLogo";
+import CrestlineLogo from "@/components/CrestlineLogo";
 
 export default function ConsultingFooter() {
   const year = new Date().getFullYear();
@@ -13,7 +13,7 @@ export default function ConsultingFooter() {
           {/* Brand col */}
           <div>
             <div className="pc-footer-logo">
-              <VellmontLogo variant="dark" size="lg" />
+              <CrestlineLogo variant="dark" size="lg" />
             </div>
             <p className="pc-footer-tagline" style={{ maxWidth: 320 }}>
               B2B appointment setting done right. We build your outbound system, run your outreach,
@@ -43,7 +43,7 @@ export default function ConsultingFooter() {
         <hr className="pc-footer-divider" />
 
         <div className="pc-footer-bottom">
-          <span>© {year} Vellmont Consulting LLC. All rights reserved.</span>
+          <span>© {year} Crestline Consulting LLC. All rights reserved.</span>
           <a
             href="https://homeboundtours.github.io/sterling-crest-landing-page"
             target="_blank"

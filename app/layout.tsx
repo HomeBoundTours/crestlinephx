@@ -20,11 +20,11 @@ const fraunces = Fraunces({
   display: "swap",
 });
 
-const SITE_URL = "https://vellmontconsulting.com";
-const SITE_NAME = "Vellmont Consulting LLC";
-const DEFAULT_TITLE = "Vellmont Consulting LLC — B2B Growth & Operations Consulting";
+const SITE_URL = "https://crestlineconsulting.com";
+const SITE_NAME = "Crestline Consulting LLC";
+const DEFAULT_TITLE = "Crestline Consulting LLC — B2B Growth & Operations Consulting";
 const DEFAULT_DESCRIPTION =
-  "Vellmont Consulting is a B2B consulting firm. We book qualified sales meetings via cold email, LinkedIn, and multi-channel outreach — and help you document SOPs and streamline operations so your business runs smoothly behind the scenes.";
+  "Crestline Consulting is a B2B consulting firm. We book qualified sales meetings via cold email, LinkedIn, and multi-channel outreach — and help you document SOPs and streamline operations so your business runs smoothly behind the scenes.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -48,11 +48,11 @@ export const metadata: Metadata = {
     "SOP documentation",
     "operations consulting",
     "business process consulting",
-    "Vellmont Consulting",
+    "Crestline Consulting",
   ],
-  authors: [{ name: "Vellmont Consulting LLC" }],
-  creator: "Vellmont Consulting LLC",
-  publisher: "Vellmont Consulting LLC",
+  authors: [{ name: "Crestline Consulting LLC" }],
+  creator: "Crestline Consulting LLC",
+  publisher: "Crestline Consulting LLC",
   robots: {
     index: true,
     follow: true,

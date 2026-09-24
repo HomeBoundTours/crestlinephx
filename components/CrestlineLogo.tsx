@@ -1,6 +1,6 @@
-import VellmontMark from "@/components/VellmontMark";
+import CrestlineMark from "@/components/CrestlineMark";
 
-type VellmontLogoProps = {
+type CrestlineLogoProps = {
   /** "dark" = for dark backgrounds (ivory text), "light" = for light backgrounds (navy text). */
   variant?: "dark" | "light";
   /** "md" for the header, "lg" for the footer. */
@@ -10,21 +10,21 @@ type VellmontLogoProps = {
 };
 
 /**
- * Vellmont brand lockup: seal + stacked wordmark
- * (VELLMONT over a green rule over CONSULTING).
+ * Crestline brand lockup: seal + stacked wordmark
+ * (CRESTLINE over a green rule over CONSULTING).
  */
-export default function VellmontLogo({
+export default function CrestlineLogo({
   variant = "dark",
   size = "md",
   wordmarkOnly = false,
-}: VellmontLogoProps) {
+}: CrestlineLogoProps) {
   return (
     <span
       className={`pc-logo pc-logo-on-${variant}${size === "lg" ? " pc-logo-lg" : ""}`}
     >
-      {!wordmarkOnly && <VellmontMark chip size={size === "lg" ? 40 : 34} />}
+      {!wordmarkOnly && <CrestlineMark chip size={size === "lg" ? 40 : 34} />}
       <span className="pc-logo-stack">
-        <span className="pc-logo-word">VELLMONT</span>
+        <span className="pc-logo-word">CRESTLINE</span>
         <span className="pc-logo-rule" aria-hidden="true" />
         <span className="pc-logo-sub">CONSULTING</span>
       </span>

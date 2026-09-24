@@ -7,7 +7,7 @@ import CTABand from "@/components/CTABand";
 export const metadata: Metadata = {
   title: "Services",
   description:
-    "Cold email, LinkedIn outreach, multi-channel campaigns, SDR as a Service, plus SOP documentation and operations consulting — Vellmont Consulting books qualified meetings and helps your business run smoothly behind the scenes.",
+    "Cold email, LinkedIn outreach, multi-channel campaigns, SDR as a Service, plus SOP documentation and operations consulting — Crestline Consulting books qualified meetings and helps your business run smoothly behind the scenes.",
 };
 
 export default function ServicesPage() {

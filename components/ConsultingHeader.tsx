@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import VellmontLogo from "@/components/VellmontLogo";
+import CrestlineLogo from "@/components/CrestlineLogo";
 
 const navLinks = [
   { label: "Home",     href: "/" },
@@ -23,9 +23,9 @@ export default function ConsultingHeader() {
         <Link
           href="/"
           className="pc-nav-logo"
-          aria-label="Vellmont Consulting LLC home"
+          aria-label="Crestline Consulting LLC home"
         >
-          <VellmontLogo variant="dark" />
+          <CrestlineLogo variant="dark" />
         </Link>
 
         <nav className="pc-nav-links" aria-label="Primary navigation">

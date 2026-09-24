@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 import PageHeader from "@/components/PageHeader";
 import ProcessTimeline from "@/components/process/ProcessTimeline";
-import WhyVellmont from "@/components/process/WhyVellmont";
+import WhyCrestline from "@/components/process/WhyCrestline";
 import CTABand from "@/components/CTABand";
 
 export const metadata: Metadata = {
   title: "Our Process",
   description:
-    "See exactly how Vellmont Consulting takes you from zero outbound to a predictable pipeline of qualified meetings — in four steps, in under 30 days.",
+    "See exactly how Crestline Consulting takes you from zero outbound to a predictable pipeline of qualified meetings — in four steps, in under 30 days.",
 };
 
 export default function ProcessPage() {
@@ -24,7 +24,7 @@ export default function ProcessPage() {
         lead="Four steps take you from zero outbound activity to a predictable pipeline — without hiring, training, or managing an SDR team."
       />
       <ProcessTimeline />
-      <WhyVellmont />
+      <WhyCrestline />
       <CTABand title="See it for yourself." />
     </>
   );

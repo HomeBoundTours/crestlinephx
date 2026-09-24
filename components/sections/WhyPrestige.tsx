@@ -59,7 +59,7 @@ export default function WhyPrestige() {
           viewport={{ once: true }}
           transition={{ duration: 0.6, ease: EASE }}
         >
-          Why Vellmont Consulting
+          Why Crestline Consulting
         </motion.p>
         <motion.h2
           className="pc-section-h2"
@@ -146,7 +146,7 @@ export default function WhyPrestige() {
                   Feature
                 </th>
                 <th style={{ padding: "16px 20px", textAlign: "left", fontSize: 11, fontWeight: 800, color: "#18553F", letterSpacing: "0.10em", textTransform: "uppercase", background: "rgba(30,107,82,0.07)" }}>
-                  Vellmont Consulting
+                  Crestline Consulting
                 </th>
                 <th style={{ padding: "16px 20px", textAlign: "left", fontSize: 11, fontWeight: 700, color: "#6B7488", letterSpacing: "0.10em", textTransform: "uppercase" }}>
                   In-House SDR

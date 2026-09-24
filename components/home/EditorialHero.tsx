@@ -4,7 +4,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import Magnetic from "@/components/Magnetic";
 import CountUp from "@/components/CountUp";
-import VellmontMark from "@/components/VellmontMark";
+import CrestlineMark from "@/components/CrestlineMark";
 
 const EASE = [0.22, 1, 0.36, 1] as const;
 const container = { hidden: {}, show: { transition: { staggerChildren: 0.12 } } };
@@ -41,11 +41,11 @@ export default function EditorialHero() {
             <circle cx="66" cy="66" r="64" fill="none" stroke="rgba(194,163,107,0.45)" strokeWidth="1" />
             <text>
               <textPath href="#pc-badge-circle">
-                VELLMONT CONSULTING · GROWTH · OPERATIONS ·
+                CRESTLINE CONSULTING · GROWTH · OPERATIONS ·
               </textPath>
             </text>
           </svg>
-          <span className="pc-edh-badge-center"><VellmontMark size={34} /></span>
+          <span className="pc-edh-badge-center"><CrestlineMark size={34} /></span>
         </div>
 
         <motion.div variants={container} initial="hidden" animate="show">
@@ -87,7 +87,7 @@ export default function EditorialHero() {
           </motion.h1>
 
           <motion.p variants={item} className="pc-edh-sub">
-            Vellmont Consulting runs your outbound engine to book qualified meetings —
+            Crestline Consulting runs your outbound engine to book qualified meetings —
             then documents the SOPs and systems that keep your business running smoothly
             behind the scenes.
           </motion.p>

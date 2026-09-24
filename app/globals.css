@@ -551,7 +551,7 @@ button { cursor: pointer; }
   transform: translateY(-1px);
 }
 
-/* Feature chip (Why Vellmont differentiators) */
+/* Feature chip (Why Crestline differentiators) */
 .pc-feature-icon {
   width: 44px; height: 44px; border-radius: 12px;
   background: linear-gradient(150deg, #F1F8F4 0%, #E3F2EB 100%);
